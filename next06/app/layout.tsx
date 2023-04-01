@@ -1,16 +1,16 @@
-import './globals.css'
-import Navbar from './components/Navbar'
-import MyProfilePic from './components/MyProfilePic'
+import "./globals.css";
+import Navbar from "./components/Navbar";
+import MyProfilePic from "./components/MyProfilePic";
 
 export const metadata = {
-  title: "Dave's Blog",
-  description: 'Created by Dave Gray',
-}
+  title: "Vlgs's Blog",
+  description: "Created by Vlgs",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -20,5 +20,5 @@ export default function RootLayout({
         {children}
       </body>
     </html>
-  )
+  );
 }
